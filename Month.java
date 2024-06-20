@@ -31,5 +31,6 @@ public class Month {
             case 12:System.out.println("December");
             break;
         }
+        sc.close();
     }
 }
