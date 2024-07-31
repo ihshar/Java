@@ -19,6 +19,7 @@ public class Sorting {
         }
 
         // int arr[] = {7,8,3,1,2};
+        // Time complexity = O(n^2)
         // Bubble Sort
         // for(int i=0;i<arr.length-1;i++){
         //     for(int j=0;j<arr.length-i-1;j++){
@@ -31,6 +32,7 @@ public class Sorting {
         // }
 
         // Selection Sort
+        // Time complexity = O(n^2)
         // for(int i=0;i<arr.length-1;i++){
         //     int smallestEle = i;
         //     for(int j=i+1;j<arr.length;j++){
@@ -44,6 +46,7 @@ public class Sorting {
         // }
 
         // Insertion Sort
+        // Time complexity = O(n^2)
         for(int i=1;i<arr.length;i++){
             int current = arr[i];
             int j = i-1;
@@ -57,5 +60,8 @@ public class Sorting {
         }
 
         printArr(arr);
+        
+        sc.close();
+
     }
 }
